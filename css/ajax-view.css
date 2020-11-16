@@ -1,0 +1,97 @@
+/************************
+
+メインバーの構成要素
+
+*************************/
+.view_PostView {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.view_leftsection{
+    max-width:600px;
+    flex-grow:0;
+    display: flex;
+    align-items: center;
+}
+
+/*画像*/
+.view_PostImage {
+    width: 100%;
+    height: auto;
+}
+
+.view_rightsection{
+    min-width:330px;
+    flex-grow:2;
+    border-left: #CCCCCC solid 1px;
+}
+
+/*ヘッダ*/
+.view_PostProfile {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:5px;
+    border-bottom: #CCCCCC solid 1px;
+}
+
+.view_profileImage{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*コメントセクション*/
+.view_CommentSection{
+    max-height: 340px;
+    overflow: scroll;
+}
+
+.view_CommentSection::-webkit-scrollbar{
+    display:none;
+}
+
+.view_Onecomment{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:5px;
+}
+
+.view_commentImage{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*コメント投稿エリア*/
+.view_CommentPost {
+    display: flex;
+    align-items: center;
+    border-top: #CCCCCC solid 1px;
+    height: 50px;
+}
+
+.view_Textarea {
+    border: none;
+    flex: 1 9999 auto;
+    outline: none;
+    padding-left: 10px;
+}
+
+.view_submitbutton {
+    background-color: #FFFFFF;
+    border: none;
+    flex: 0 9999 auto;
+    margin-right: 10px;
+    color:#CDEAFD;
+}

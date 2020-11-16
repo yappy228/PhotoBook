@@ -1,0 +1,104 @@
+body {
+    background-color: #FAFAFA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.mainform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-top: 20vh;
+    border-radius: 5px;
+    border-top: 3px solid #CCCCCC;
+    border-bottom: 3px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    background: white;
+    width: 320px;
+    text-align: center;
+    padding: 25px;
+}
+
+.LoginInfo {
+    border: 1px solid #CCCCCC;
+    background: #FAFAFA;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+input::-webkit-input-placeholder {
+    color: #262626;
+}
+
+input:-moz-placeholder {
+    color: #262626;
+}
+
+input::-moz-placeholder {
+    color: #262626;
+}
+
+input:-ms-input-placeholder {
+    color: #262626;
+}
+
+form > h1 {
+    font-size: 35px;
+}
+
+#LoginSubmit {
+    border-radius: 3px;
+    background-color: #D7E6EF;
+    margin-top: 15px;
+    padding: 15px;
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+aside {
+    text-align: center;
+}
+
+.registration {
+    border: 1px solid #CCCCCC;
+    width: 320px;
+    height: 50px;
+    background: white;
+    margin-top: 20px;
+    position: relative;
+}
+
+.link {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align:center;
+    font-size: 15px;
+}
+
+.comment{
+    border: 1px solid #CCCCCC;
+    width: 320px;
+    height:auto;
+    background: white;
+    margin-top: 20px;
+    position: relative;
+}
